@@ -1,2 +1,6 @@
-public class Email {
+public class Email implements MailDeliveryService{
+    @Override
+    public void sendMail() {
+
+    }
 }
